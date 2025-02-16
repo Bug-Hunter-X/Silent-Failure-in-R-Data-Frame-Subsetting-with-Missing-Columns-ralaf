@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in R related to subsetting data frames when the specified column names are not all present.  The standard subsetting operation silently drops the missing columns, leading to unexpected behavior and potential errors later in the analysis. The solution offers a robust way to handle such situations.
